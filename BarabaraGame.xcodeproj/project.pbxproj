@@ -13,6 +13,10 @@
 		859F7E42282A76EC00087944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859F7E40282A76EC00087944 /* Main.storyboard */; };
 		859F7E44282A76EF00087944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859F7E43282A76EF00087944 /* Assets.xcassets */; };
 		859F7E47282A76EF00087944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859F7E45282A76EF00087944 /* LaunchScreen.storyboard */; };
+		859F7E51282A82B100087944 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 859F7E4F282A82B100087944 /* tail.png */; };
+		859F7E52282A82B100087944 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 859F7E50282A82B100087944 /* bar.png */; };
+		859F7E54282A877000087944 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859F7E53282A877000087944 /* GameViewController.swift */; };
+		859F7E56282A878300087944 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859F7E55282A878300087944 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		859F7E43282A76EF00087944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		859F7E46282A76EF00087944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		859F7E48282A76EF00087944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859F7E4F282A82B100087944 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		859F7E50282A82B100087944 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		859F7E53282A877000087944 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		859F7E55282A878300087944 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				859F7E3A282A76EC00087944 /* AppDelegate.swift */,
 				859F7E3C282A76EC00087944 /* SceneDelegate.swift */,
 				859F7E3E282A76EC00087944 /* ViewController.swift */,
+				859F7E53282A877000087944 /* GameViewController.swift */,
+				859F7E55282A878300087944 /* RankingViewController.swift */,
 				859F7E40282A76EC00087944 /* Main.storyboard */,
 				859F7E43282A76EF00087944 /* Assets.xcassets */,
+				859F7E4E282A82B100087944 /* Barabara素材 */,
 				859F7E45282A76EF00087944 /* LaunchScreen.storyboard */,
 				859F7E48282A76EF00087944 /* Info.plist */,
 			);
 			path = BarabaraGame;
+			sourceTree = "<group>";
+		};
+		859F7E4E282A82B100087944 /* Barabara素材 */ = {
+			isa = PBXGroup;
+			children = (
+				859F7E4F282A82B100087944 /* tail.png */,
+				859F7E50282A82B100087944 /* bar.png */,
+			);
+			path = "Barabara素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				859F7E47282A76EF00087944 /* LaunchScreen.storyboard in Resources */,
+				859F7E52282A82B100087944 /* bar.png in Resources */,
+				859F7E51282A82B100087944 /* tail.png in Resources */,
 				859F7E44282A76EF00087944 /* Assets.xcassets in Resources */,
 				859F7E42282A76EC00087944 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				859F7E56282A878300087944 /* RankingViewController.swift in Sources */,
+				859F7E54282A877000087944 /* GameViewController.swift in Sources */,
 				859F7E3F282A76EC00087944 /* ViewController.swift in Sources */,
 				859F7E3B282A76EC00087944 /* AppDelegate.swift in Sources */,
 				859F7E3D282A76EC00087944 /* SceneDelegate.swift in Sources */,
